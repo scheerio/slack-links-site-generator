@@ -52,7 +52,7 @@ Note: This project is very careful to avoid extracting any actual message text, 
 - `npm i`
 - `npm start`
 7. Woohoo! You should see all the links in the React app.
-8. Ready to deploy the site? I recommended using [Vercel](https://vercel.com/).
+8. Ready to deploy the site? I recommend using [Vercel](https://vercel.com/) to quickly deploy from your forked repo.
 9. Want to update with more links? Follow steps 3-5 again (especially step 5!). The current_links.json file will automatically update with existing and new links combined.  
 
 Run into any issues? Feel free to reach out to me: benjackscheer@gmail.com
