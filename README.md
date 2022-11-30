@@ -19,7 +19,7 @@ Note: This project is very careful to avoid extracting any actual message text, 
 
 ## Instructions to Generate Your Own Slack Links Site
 
-1. Clone this repo. Also, make sure you have Python on your machine.
+1. Fork this repo. Also, make sure you have Python on your machine.
 2. Manually export data from your Slack organization. It will come in the form of a zip file. When you unzip this, it will be a folder of folders, each of those folders corresponding to a channel (e.g., if the Slack organization has a channel called #random, you will see a folder called random). Within each of those folders there will be a bunch of json files. Here's an example!
 
 <p align="center">
@@ -51,7 +51,8 @@ Note: This project is very careful to avoid extracting any actual message text, 
 6. In your command line, move into the top of the repo (slack-links) and then run the app with the following:
 - `npm i`
 - `npm start`
-7. Congrats! You should see all the links in the React app.
-8. Want to update with more links? Follow steps 3-5 again (especially step 5!). The current_links.json file will automatically update with existing and new links combined.  
+7. Woohoo! You should see all the links in the React app.
+8. Ready to deploy this site? I recommended using Vercel.
+9. Want to update with more links? Follow steps 3-5 again (especially step 5!). The current_links.json file will automatically update with existing and new links combined.  
 
 Run into any issues? Feel free to reach out to me: benjackscheer@gmail.com
