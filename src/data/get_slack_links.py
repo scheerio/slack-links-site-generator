@@ -25,7 +25,6 @@ def get_links():
                         link_array.append(value)
 
         #iterate new stuff to turn into json
-        length = len(link_array)
         for index, item in enumerate(link_array):
             if is_image(item):
                 json_array[len(json_array)-1]['image'] = item
