@@ -15,7 +15,7 @@ This project was bootstrapped with Create React App, and uses both Python and Re
 - See all the links shown in the React client (this is the fun part). No more losing track of links!
 - To update the links, just run the script again using the new exported data.
 
-Note: This project is very careful to avoid extracting any actual message text, internal files, etc., as this would be a problem! It only extracts publicly available links which are safe to display on a generated site.
+Note: When dealing with data like this, it's easy to feel concerned. This project is very careful to avoid extracting any actual message text, internal files, or other potentially private or sensitive information. This would be a problem indeed! It only extracts publicly available links to display on a generated site, for example, YouTube links or links to articles from Google.
 
 ## Instructions to Generate Your Own Slack Links Site
 
