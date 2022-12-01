@@ -11,8 +11,8 @@ import {
 import { getLinks, getRandomColor } from "../utils/utils";
 
 const Links = () => {
+
   const links = getLinks();
-  console.log(links);
 
   return (
     <div>
