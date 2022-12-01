@@ -10,10 +10,10 @@ Keep reading to learn how to create a site like this for yourself!
 
 This project was bootstrapped with Create React App, and uses both Python and React Bootstrap. Here's how it works, in general:
 
-- You need to manually export data from your slack organization
-- Run the python script in here to generate a json file with the links and clean image thumbnails (see instructions below)
-- See all the links shown in the React site (the fun part), so you never lose track of links again!
-- To update the links, just run the script in here again (see instructions below)
+- You need to manually export data from your slack organization. This requires action from an admin / workspace owner.
+- Run the python script within the React project, using the exported channel data, to generate a custom JSON file with links and image thumbnails. The React code will reference this file.
+- See all the links shown in the React client (this is the fun part). No more losing track of links!
+- To update the links, just run the script again using the new exported data.
 
 Note: This project is very careful to avoid extracting any actual message text, internal files, etc., as this would be a problem! It only extracts publicly available links which are safe to display on a generated site.
 
