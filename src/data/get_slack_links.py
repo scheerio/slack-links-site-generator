@@ -21,7 +21,7 @@ def get_links():
                 flat_json = flatten_data(json_text)
                 for item in flat_json:
                     value = flat_json[item]
-                    if (('url' in item) and (value not in link_array) and (type(value) is str) and ('files.slack.com' not in value) and (value not in forbidden_links)):
+                    if (('url' in item) and ('url_private' not in item) and (value not in link_array) and (type(value) is str) and ('files.slack.com' not in value) and (value not in forbidden_links)):
                         link_array.append(value)
 
         #iterate new stuff to turn into json
