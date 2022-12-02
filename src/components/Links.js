@@ -48,7 +48,7 @@ const Links = () => {
           </ButtonToolbar>
         </Container>
       ) : (
-        <div>No data...follow the README instructions to generate your current_links.json file!</div>
+        <div style={{margin: '2rem'}}>No data...follow the README instructions to generate your current_links.json file!</div>
       )}
     </div>
   );
