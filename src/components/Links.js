@@ -24,11 +24,11 @@ const Links = () => {
           >
             {links["data"].map((link) => (
               <Card
+                key={link.id}
                 style={{ width: "45rem", backgroundColor: getRandomColor() }}
                 className="p-2 border-2 rounded-3 project-card m-2"
               >
                 <Button
-                  key={link.id}
                   href={link.link}
                   style={{ backgroundColor: "transparent" }}
                 >
